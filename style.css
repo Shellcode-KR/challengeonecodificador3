@@ -1,0 +1,45 @@
+body{
+    background-color: #c5c5c5;
+}
+
+main{
+    display: flex;
+    margin-left: 8rem;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+header{
+    margin-bottom: 20px;
+}
+.boton{
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 8rem;
+    height: 2rem;
+    border: 1px solid;
+}
+.encriptar{
+    background: #0A3871;
+    color: white;
+}
+section{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#mensaje2{
+    position: relative;
+    background-image: url("./imagenes/Muñeco.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 48px;
+}
