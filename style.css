@@ -4,6 +4,7 @@ body{
 
 main{
     display: flex;
+    
     margin-left: 8rem;
     margin-bottom: 50px;
 }
@@ -16,6 +17,7 @@ h1{
 }
 header{
     margin-bottom: 20px;
+    
 }
 .boton{
     margin-top: 1rem;
@@ -42,4 +44,9 @@ section{
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 48px;
+}
+@media (max-width:768px) {
+    main{
+        flex-direction: column;
+    }
 }
